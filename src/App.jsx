@@ -1,5 +1,13 @@
 import React from "react";
 
+import Routing from "./Components/Routing";
+import Nav from "./Components/Nav";
+
 export default function App() {
-  return <div>Hello Zulquar</div>;
+  return (
+    <>
+      <Nav />
+      <Routing />
+    </>
+  );
 }
